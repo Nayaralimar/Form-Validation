@@ -16,61 +16,61 @@
 
 <body>
 
-  <form action="">
-    <h2>
-      Entrar na lista
-    </h2>
+  <section class="cabecalho">
+    <h2>Exercise.me</h2>
+      <p>Preencha o formulário para agendar uma aula experimental</p>
+  </section>
 
-    <div class="input">
-      <input required type="text" />
-      <label>Nome</label>
-      <span class="error"></span>
-    </div>
+  <form action="" method="">
+    <fieldset>
+      <legend>
+        Informações pessoais
+      </legend>
+      
+      <div class="input">
+        <input required type="text" />
+        <label>Nome</label>
+        <span class="error"></span>
+      </div>
 
-    <div class="input">
-      <input required type="text" />
-      <label>Sobrenome</label>
-      <span class="error"></span>
-    </div>
+      <div class="input">
+        <input required type="text" />
+        <label>Sobrenome</label>
+        <span class="error"></span>
+      </div>
 
-    <div class="input">
-      <input required type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"/>
-      <small>Formato: 99-99999-9999</small>
-      <label>Telefone</label>
-      <span class="error"></span>
-    </div>
+      <div class="input">
+        <input required type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"/>
+        <small>Formato: 99-99999-9999</small>
+        <label>Telefone</label>
+        <span class="error"></span>
+      </div>
 
-    <div class="input">
-      <input required type="email" />
-      <label>Email</label>
-      <span class="error"></span>
-    </div>
-
-    <div class="standard-box">
-
-      <legend>Informações do mentor</legend>
-
-        <div class="input-standard">
-          <label for="event-category">Selecione um professor(a)</label>
-          <select id="event-category">
-            <option value="mentorship1">Ana</option>
-            <option value="mentorship2">Fabio</option>
-            <option value="mentorship3">Maria</option>
-            <option value="mentorship3">Alexandre</option>
-          </select>
-       </div>
-    </div>
-
-  </fieldset>
+      <div class="input">
+        <input required type="email" />
+        <label>Email</label>
+        <span class="error"></span>
+      </div>
+    </fieldset>
 
   <fieldset>
 
-    <div class="standard-box">
+    <section class="time-class">
 
       <legend>Agendando a aula</legend>
 
-    <div class="triple-box">
+        <div class="input-professor">
+            <label for="event-category">Selecione um professor(a)</label>
+            <select id="event-category">
+              <option value="professor1">Ana</option>
+              <option value="professor2">Fabio</option>
+              <option value="professor3">Maria</option>
+              <option value="professor3">Alexandre</option>
+            </select>
+           </div>
+        </section>
 
+    <section>
       <div class="input-standard">
        <label for="event-date">Data <span>(DD/MM/AAAA)</span></label>
        <input type="date" id="event-date">
@@ -85,7 +85,7 @@
         <label for="event-2time">Até</label>
         <input type="time" id="event-2time">
       </div>
-    </div>
+    </section>
    </fieldset>
 
     <button type="submit">Enviar</button>
