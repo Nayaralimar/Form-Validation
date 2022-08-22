@@ -34,4 +34,4 @@ Faça um clone do repositório. Execute a rota em seu servidor, url: http://127.
 JavaScript:</br>° Responsável por verificar se os campos do formulário foram preenchidos de forma correta, com mensagens customizadas para que o usuário possa colocar a informação necessária.
 
 ## GitHub Pages:</br>
-Site publicado em:
+Site publicado em: https://nayaralimar.github.io/Form-Validation/
