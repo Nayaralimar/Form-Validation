@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img width="460" height="500" src="./images/exercise-me-lighthouse.PNG">
+  <img width="460" height="500" src="./images/exercise-me-lighthouse.gif">
 </p>
 
 # Form-Validation </br>
